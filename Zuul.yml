@@ -1,10 +1,10 @@
 server:
   port: 5555
 
- zuul:
-  routes:
-    users:
-      sensitiveHeaders: Cookie,Set-Cookie,Authorization
+zuul:
+ routes:
+   users:
+     sensitiveHeaders: Cookie,Set-Cookie
 
 
 eureka:
