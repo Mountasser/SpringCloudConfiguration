@@ -2,7 +2,10 @@ server:
   port: 5555
 
  zuul:
-   sensitiveHeaders: Cookie,Set-Cookie
+  routes:
+    users:
+      sensitiveHeaders: Cookie,Set-Cookie,Authorization
+
 
 eureka:
   instance:
