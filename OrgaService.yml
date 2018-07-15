@@ -24,4 +24,4 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 security:
   oauth2:
     resource:
-       userInfoUri: localhost:5555/security/auth/user
+       userInfoUri: http://localhost:5555/security/auth/user
